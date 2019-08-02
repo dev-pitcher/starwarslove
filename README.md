@@ -20,7 +20,7 @@ For such a small amount of network activity my initial plan was to use URLSessio
 
 I didn't want to mess with SQLite's C API so I searched for a good wrapper. I've used FMDB in the past but didn't want to bring in Objective C if possible so I researched a few swift SQLite wrappers on GitHub and ultimately picked the one with the most stars (SQLite.swift). One nice feature I liked in SQLite.swift is that you can insert a single Codable object as a row in the database, rather then specifying each column and value to be inserted. This allowed me to used the same objects (see PotentialMate class) both when encoding/decoding from JSON and as inputs/outputs to the database.
 
-The datavflow of the app is:
+The data flow of the app is:
 
 - retrieve individuals from the web service at app startup
 - in the meantime displays are updating using anything stored in the database

@@ -22,6 +22,7 @@
 		032B8FDA22F4AC01001B692E /* UIColor+StarWarsLove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B8FD922F4AC01001B692E /* UIColor+StarWarsLove.swift */; };
 		032B8FDC22F4B0D9001B692E /* PotentialMateDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B8FDB22F4B0D9001B692E /* PotentialMateDetailsController.swift */; };
 		032B8FE022F4D0D2001B692E /* Date+Zodiac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032B8FDF22F4D0D2001B692E /* Date+Zodiac.swift */; };
+		03B6BCE822F4EFA900361839 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 03B6BCE722F4EFA900361839 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		032B8FD922F4AC01001B692E /* UIColor+StarWarsLove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+StarWarsLove.swift"; sourceTree = "<group>"; };
 		032B8FDB22F4B0D9001B692E /* PotentialMateDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotentialMateDetailsController.swift; sourceTree = "<group>"; };
 		032B8FDF22F4D0D2001B692E /* Date+Zodiac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Zodiac.swift"; sourceTree = "<group>"; };
+		03B6BCE722F4EFA900361839 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		032B8FA522F3DBF0001B692E = {
 			isa = PBXGroup;
 			children = (
+				03B6BCE722F4EFA900361839 /* README.md */,
 				032B8FB022F3DBF0001B692E /* StarWarsDating */,
 				032B8FAF22F3DBF0001B692E /* Products */,
 				032B8FD622F4A844001B692E /* AlamofireImage.framework */,
@@ -198,6 +201,7 @@
 			files = (
 				032B8FBC22F3DBF1001B692E /* LaunchScreen.storyboard in Resources */,
 				032B8FB922F3DBF1001B692E /* Assets.xcassets in Resources */,
+				03B6BCE822F4EFA900361839 /* README.md in Resources */,
 				032B8FB722F3DBF0001B692E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,3 @@
+github "stephencelis/SQLite.swift" ~> 0.12.0
+github "Alamofire/Alamofire" "4.8.1"
+github "Alamofire/AlamofireImage" ~> 3.5
